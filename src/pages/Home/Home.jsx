@@ -6,7 +6,7 @@ function Home() {
   return (
     <main className="overflow-hidden">
       <SwipperBigCards />
-      <ProductCategories />
+      <ProductCategories catecategoriesProduct={categoriesProduct} />
     </main>
   );
 }

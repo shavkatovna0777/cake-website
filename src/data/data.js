@@ -7,3 +7,11 @@ export const swipperBigCards = [
   { id: 2, imgUrl: SwipperImg2 },
   { id: 3, imgUrl: SwipperImg3 },
 ];
+
+export const categoriesProduct = [
+  { name: "Bayram tortlari", image: "/images/cake1.png" },
+  { name: "Tematik tortlar", image: "/images/cake2.png" },
+  { name: "Mevali tortlar", image: "/images/cake3.png" },
+  { name: "Klassik tortlar", image: "/images/cake4.png" },
+  { name: "Ko‘p qavatli tortlar", image: "/images/cake5.png" },
+];
