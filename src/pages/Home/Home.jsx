@@ -1,7 +1,14 @@
 import React from "react";
+import SwipperBigCards from "../../components/SwipperBigCards/SwipperBigCards";
+import ProductCategories from "../../components/ProductCategories/ProductCategories";
 
 function Home() {
-  return <div className="container">Home</div>;
+  return (
+    <main className="overflow-hidden">
+      <SwipperBigCards />
+      <ProductCategories />
+    </main>
+  );
 }
 
 export default Home;
