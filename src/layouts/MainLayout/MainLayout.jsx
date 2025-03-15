@@ -4,7 +4,7 @@ import ScrollTo from "../../components/ScrollTo/ScrollTo";
 
 function MainLayout() {
   return (
-    <div tabIndex={-1} className="min-h-screen flex flex-col bg-[#F2F4F7]">
+    <div tabIndex={-1} className="min-h-screen flex flex-col bg-[#fff]">
       <ScrollTo />
       <Header />
       <main className="flex-grow pb-[80px]">
