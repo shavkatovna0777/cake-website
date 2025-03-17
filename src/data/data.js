@@ -1,6 +1,6 @@
 import SwipperImg1 from "../assets/images/swipper-big-card-1.jpg";
 import SwipperImg2 from "../assets/images/swipper-big-card-2.jpg";
-import SwipperImg3 from "../assets/images/swipper-big-card-3.jpg";
+import SwipperImg3 from "../assets/images/swipper-big-card-3.png";
 
 export const swipperBigCards = [
   { id: 1, imgUrl: SwipperImg1 },
@@ -11,75 +11,85 @@ export const swipperBigCards = [
 export const categoriesProduct = [
   {
     id: 1,
-    name: "Bayram tortlari",
+    name: "Dumaloq tortlar",
     image:
-      "https://s3-alpha-sig.figma.com/img/e88d/2249/00458dc24bdf535dab788c0d16d1252e?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=BmtBfAiGujr0On9wnngUzX2XmII7IXjyUorOQRT0F-4B164kagMAsK5BMQMeWrlARsQGbuhVgMoZShDYG9tE3qRQHnU7Mky~BWtVHUtKzlJ56KzH2kRADEjQVSkF58XP7PbHZDt16WgNkuf7Kf~hggP93GxhA8ZnXo-I7KgLM1gj4MMdlhHYxIv9x~DnH1WJ3JL69CAapLEWM6CGtNyDVQ7aVJE7ZApw4Tbwtl5XHAQXg0oTGPB0xMfje0Y6LvvrNqWyCHOp8XsQK1FnJpwdnyWf0EGdTE6tyBytVl3vnuWy88BVtaZ4fqG7ErgrEhw8ZvF-qGCMHAbdI~esUnx03A__",
+      "https://s3-alpha-sig.figma.com/img/eb0c/cab6/f651b6f421cc194af82702cea7919fbc?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=PH2eam4yB0-qFl~5xP2lKpQBUwHdNVyQR9cnrer2ZDOWBTSCJwK3hbyBid3fEvXL8W82GbExuskLgGMazHGR~zzimUoOTCN7fxmqqp8s5L1L3AjniS9uAPNATkgUltSHpqjc0ycFVU2iyenwYbMT2JDveUOxRZ3FRE9EtTQGGHIUHttYIELaZCrSHcR~6Tk6QvUNqeFCJ1FV2qfp8l4CstfB8fHCfvo70Yr-4fixCDIuJJS~pMSYld26Dgq-vzd38dg1Ew37EebwfuQd6geYJ~Sfx3zgOyXYkX1lFX7Isqu8yF8U~hDHl5mY-YdlEVgDIKLTLL8D58bpJ8eFTKvM5g__",
   },
   {
     id: 2,
-    name: "Tematik tortlar",
+    name: "Mini tortlar",
     image:
-      "https://s3-alpha-sig.figma.com/img/644b/20ac/9a73984a0d6bba7350bcb41a0086f963?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=p2Y3JF7B0PUIVNXk8XO8Bad44mVDYbdfxIezWsKJDzEVEtjXUOccXT6GsaPU8K76GA83wX3AZvD1Hqe-qxIBzKlbnTqLuTDmrpJhcIL4fZoP9g69hf0sBZc-npB6tbOlwjoej6-dWGIik0sKh-OnZx31t4sgAWDnjpI5ao0686EZ5keKiW5T64iDU7SMTe46UbZdjnGr5mMJT9BhyNykYvFaz9DAvZK-uKZl3pSAtTHrd54rGGrLUDt5kby5-hcxDpwpIJBUzyDlCzFcViypkCfLuaE8HPk0fg6Ibz1HacTSXSu6uEQOYho3GwvsjfefvHOblj7OjchSfWKjmBBKPA__",
+      "https://s3-alpha-sig.figma.com/img/80bc/0c26/73a7b84fbda98bcd2ae881996850a8ac?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=C~9fv~kCsPWcXoFMX6u5FC2MQIvJtPd6RPnuov9ONLrrVwI-wEgZorJU34xmr0Z5ENHWdnzFl18Z8cLF73kyavH4cv7G28DBkgHCLqi9joUOsE9OtaNiaIt~r~XOtaI2~bR5NIDP3tvEvEwyD4WISTcvxSVafE93OMTcBZvhshXFOgWPm~j172TzcGM9HGzjWsi8WSktV-bqr19TilKmJJecDa~PoLdLHe9b41fR-BZsUqAdy8HtaZKNkt0-adlajO3Ir3fL3Kjyeu0pQkQwJdhMkQ5Ea6F09qi8Tb8jZLv8ai3A2UGSQxKOz3D4Gp7toPRK7YkhyiGHiS2Sh5GsFQ__",
   },
   {
     id: 3,
-    name: "Mevali tortlar",
+    name: "Katta tortlar",
     image:
-      "https://s3-alpha-sig.figma.com/img/b660/237e/aef330a218df8e0f377556f963db7822?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fBPhXW2qEaZA3QrvtCZ-rGcw1XU9S4JllqUpoGdEky-Rfc4yO645L9-NvmW~4htj6by2AhnZEf7KzEVYaq5aPNQzMYvZW7WhoNC6pViXTV2bvPZIHHtpBuKSjHNBjwg5PyLHxo~bPpHKQEoSnKLGGY-4ySRMcmsLfcdZ1O4iZuBVo71JAplTcEmprEVZTgveRNdiOrXI7EoqUFR9d5-IVT-xBxCC~ajP1V0S3653~jZETVEFIBEz~Za-OnVtUUwbdZxojhoqBP-db7kpkBzdIRdpFbStNmXEjW0Vqnr87Sqyr6nmwnes08heJYiTrUhsalirak1~iVOB08WsBqBYdQ__",
+      "https://s3-alpha-sig.figma.com/img/da03/14a4/db81b4d8373a751133d500d0eb4124bc?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=dDYKBzsVV67rlVlYUXOQRMy0l~dDBUmeyyCellvVWX9t7RB8nvngv1hfkclzOFIPLGnGTuh4WnwuH5MwdVmbbkLBSQFFgbaxpUzdynD1MCNHOC7vMT~qf8~oUBWF2D8reYUpeYp191XXZJuSO-dUCRyZtp8cpxSBsd1JImxQeEN9TEbUVb4dujhyCixU61n1IyfmFqRZuQwqMfhAPLEU7fkBWa5kI5dgOeWOvBIAFD2AI3HNWVKce51IrxfkjYZaDu1gbUci8kGKOJB5SG-~QE3WO8GkmnLToSNopbfaNTp~kdXLvoVSA0wvJZl5Ij9TB-fu4j3sfr4hUNYWS~qsRQ__",
   },
   {
     id: 4,
-    name: "Klassik tortlar",
+    name: "Katta piroglar",
     image:
-      "https://s3-alpha-sig.figma.com/img/976a/c79d/3d06754db8a3a01568cf9867631f41a5?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=TkoXcgA2wJt7aYqvX-9RDyd2THyORwvjEEqm9zXN5a34H8RBLMOIN46z0YwC83CKxNYYGfWd6-UnNkL6X0kUZjFzYmsk7GO15Q9WeKy-adJAHMZGo3-wgjuyFBloxkQ5Ea3tYeMYohMnu8G6RRxIazan8CAM7-IlPZOQ4Shrae2K-smGcMb9~VmdkhIHvvsMkONbZGPCQX-c6K85pPhQ6GH-lOzTMgea3wES1dTVg8PtOcfdgAeW2qDQ4F-F08tHbv7zn-zA~ipooqhQ87A-1SDoFnjFRIyJsXI9m2m0GtK6VqHWZBNfoGtNGJTo61B5Loz2O0qLmxpPO2meYJFEqA__",
+      "https://s3-alpha-sig.figma.com/img/c310/713e/6f1437ae6a0c0c70a7400363f1b5cdae?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=kMqqm~cE25jYNvQKW~cBmnRtnmGDjGIur1rXgQL6WjKL-ofv4xNEAdtvTPRMTLEW5oYbwxrwNxDdvz76Xn-2szJh5xnnjiXDNgyZB~B0ZNHeTaOG2Ux3kB8DcM7ZmVN-MU3iVrQ-yn5b-30S8fFtY9tiqAb3ocYjARKrWLXuBN5NfX1bv0oBjelVjDJpYzjTI6AV4E7cQgXmUprdnxV1ypTpMDZIqFw3nCmEHTfA1VvhfetI9PvOH0HTomALKY4QUb2~1trWL~ZWrtd5Ss9FhpRh0E6XfoiLcTzyGfw6-UX2ricvH2c1dN7aIK~jL5r0kYiNyDz1Hv~Hx4NMaD9KzQ__",
   },
   {
     id: 5,
-    name: "Ko‘p qavatli tortlar",
+    name: "Dumaloq piroglar",
     image:
-      "https://s3-alpha-sig.figma.com/img/5b3f/0b5b/32fbbb571a1c4853ead4e9a765d0028e?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=jg6h8LnREeZWSwwa0C73ggysZlDafGXa0-2dhRxHSRG7EBG9HvkiY1tGSYhPRPM8~gNFnMmIVgifaSouXOb2griDoCTwVB9eP8QdX3xsNVrgzCUm94ut~SZWhYfXjibkhmmgmu9tN2zrT7jmRBoyrhJTkNuMoNGTWz9hp9Z2dq6U6bVgmtmHQh3XPTMeqidYtyHJxdriukHTpTfEYxnWs-IDVnA~Gp46eouWg-pIyHNGBfQNQYYurpEL0F7Y6FlsIxxRdfEbDHZP4-6PFV1rcur-u0yj029FRy7qWsSLJMQkOv7HhXXw39Wz~W2R-nKZf7RMfrB6qfUhgj7DY~M5iw__",
+      "https://s3-alpha-sig.figma.com/img/6482/7348/d2ab5d6585861ee71a9cd9e9294ecd82?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Gf1FaWsItuvGusC6hfggCb-Qrha7N3VX10zkEvX~6CRJbgGj9t-BPYdgLLV7dnj3hQR6qe~WpG123zOi6boveUCOUBKapX17xuroUXyvIwUg9kwMRVvV8BCyyy5ELUYcvj~ciZHUuy3VIg76cZBjoPrIPX4a3v6awt~-EL6X-C1q4FfhXJFJ2B5vECg8uGQAN7ojl7vWGp-T3EzO46C8U2Lr8WeGbdzu19PX7zkHGRSmJU~qWScGcBKWwBL9Fbz6Fz-BMj6sUdfRPCI8bodeFqRr9U96SxJPbX5h3NJOV4xY6P8xqiJAytyiEDSMbGOS7oqLlFcUwNzukQypoqlLEA__",
   },
 ];
 
 export const partyCakes = [
   {
     id: 1,
-    name: "Yangi yil",
-    description:
-      "Yangi yil bayrami uchun maxsus bezatilgan tort, yangi yil uchun ajoyib bilar bezatilgan",
-    price: "220 000 so'm",
-    dimensions: "30 cm × 23 cm × 12 cm",
+    name: "Vishenka Tarti",
+    description: "Qumoq xamir, shokolad, yangi uzilgan olchali tart.",
+    price: "99 000 so'm",
+    originalPrice: "150 000 so'm",
+    discount: true,
+    discountText: "Chegirmada",
+    servings: "6 - 8 kishi uchun mo'ljallangan.",
     image:
-      "https://s3-alpha-sig.figma.com/img/3ee3/0ff0/6928b6cd23dfe64aeffc8a120f134acb?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ivsNnXWfHLSg6anSlsanTphgxwRLHwoeVYoa6grBfqiY1vAG5pN1dMbR-wKalSBv28v-xb551iSOJk3Ci~3gTP33~x5W1NcI18ksSGHgkUqf4Hd1WNp1KU7u7Y61VwCy0vdfpm2UdAVpeL2gJUACFlchtsSEr7bj1WhriODDVAT7u4652x9cS2DaGdILDYdF0Or-LI4ozOmkmHxYoJgKzXhOfyTNbQypjbujOHsJb0nWqWdQXyAeEPDRn-z-dsuoPf~BUPvU2dCG-59ePQSYTXR8Y4726ocykKdG6PnVK2QgO-36ZWNV7N6V48vxWcoEGkgP1ttLM4X5Y5a2wlBnXA__",
+      "https://s3-alpha-sig.figma.com/img/e969/45e4/dc799fc26079ce18b98d9a7b8770e470?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=FSkVyg-JZtP3fxlYlInzF1r8yqDciby1xMflFreN-Tnr4NkesoP41UeFvAEgAQdpmhDXRxVidMCT2H06C2m~Y4yg3huE3b-BwzSU3WcvT0CNrZ97RGvTgu5ApArVO8RZLLwZfTeOJRB6-MZ2EjmL1KpQL4t5TkIQqX8ZVhDWWPJBIHgCjOZB7iEiQZ-ic8zUQY-L91dXFWta4skdW-mhF0RPNoZ-mazDRu-9KqBRfFnH0d623CQK2K94m9su3VYLfLF6nxpyBgNNjlh~h0sRKL2Cq~QCfm-UjeT5rdUMKVzUB7tMr-X1XsMm0iEitw-~pJAdn7P9fmjvX2nwufU6dA__",
   },
   {
     id: 2,
-    name: "Hayit shirinligi",
+    name: "Tort Admiral",
     description:
-      "Ramazon va Qurbon hayit bayramlariga moslashtirilgan oy va yulduzchalar bilan qoplangan shirinlik",
-    price: "180 000 so'm",
-    dimensions: "28 cm × 24 cm × 10 cm",
+      "Suti sirop bilan to'yintirilgan ko'knorti, yong'oqlik va shokoladli biskvit, iris.",
+    price: "269 000 so'm",
+    discount: false,
+    discountText: "Chegirmada",
+    servings: "6 - 8 kishi uchun mo'ljallangan.",
     image:
-      "https://s3-alpha-sig.figma.com/img/0239/8ce2/23ff1e06ad93b8aa640bc78285844066?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=iLoaKZ6eAxzNaF4c~NCyIMfpOdRnTgovMMvSq6gqtDrYR5bV1Ri7gtC5kFhhS1OONCMlLj3c6T0K911jkwMYNkHJLnJ81abe3m8kIbvfbBCUlfFEafPXEfyBQlj1~oH3aFuIdDrOmi20X6-Rj7Zo9sMxLYOv4FZ7D0FT9z-WHjLzG4~8sBr9~tSp4nW0FKXB25o3J7Rx6qEijBmX-ypsOjAN2VSIVJ9bZs0YlVs00uAcK~9tQXuX3vUODDSqxacCCQmZfk-c2luWW2TAHNTjzBNPefWWVqsUlFDOonHEsJ-G0rmtj-H09-UsXQJMbxXMNFDaHXAD0586SlLRFuhUOA__",
+      "https://s3-alpha-sig.figma.com/img/4305/944f/1cfa8dd51cacbc77e816cd76b8abaf39?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=B5Hm~qeM~f6zn7s1FQAMZHfer2N6-WEcAQjREV6hwuAL-zeB0HTLufYUWXab7MtrqLWMLwZP6XsCs7~0ZoIUdvrfo9xFc6nkPGLiGVOBzOa7IJH6FDKtpIxxSK~DlX4eM7v-6-R83IFdzSKXUmTKzsPSjQtRgq1guF6ZKnnunm9lQBJwMEpho2fur~rpxgpwf7zN2frtDxZcLl7OidmL0q5t34LACR9CPs-r1RSq-pNwLCZ6~db1dY8dc0HwLfG3~sbeKoSQUsR5fh70B5acwVIGJ2ihgVMR2bkRkOGp70xc3Fil4zTxzPEAQDSmcKTOmKjUkbksQQnNsK34T7WUow__",
   },
   {
     id: 3,
-    name: "Tug'ilgan kun",
+    name: "Tort Barbi",
     description:
-      "Nafislik va zamonaviy dizaynligi divan, har qanday kishini xursand qiladigan",
+      "Minimalistik va zamonaviy dizayndagi divan, har qanday xonaga mos keladi.",
     price: "250 000 so'm",
-    dimensions: "35 cm × 30 cm × 15 cm",
+    originalPrice: "290 000 so'm",
+    discount: true,
+    discountText: "Chegirmada",
+    servings: "6 - 8 kishi uchun mo'ljallangan.",
     image:
-      "https://s3-alpha-sig.figma.com/img/c368/6c0c/ebf7f3cdf1c9b41cda62c3795da520eb?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=Rynud3DB58439iHk6V0MEVowCO-1tTHQZ8x5HVgtBPKYliwEUX0EZOh5yIzt5iIPMGhcsJMWvldEirVfv3sNIjis01t3nibhiZEvAMcJHsKiSd8uUJZjefp~twhf1gHUmXTV3Jw3et~~tnmuXRlx7Esm2duQi12lTCa92RssiikwWxqbGxrlBPgCyxIzxla6uH0~pwvgLHWAtPjH1wJkQP6Gp6nr0ooaUgD03OXnW-JQdTank1PchX-SxzDYVAcvKb-h-gQbEDqSV5OzuT5v1O4oVL9-RQG6yBzR4EWAd4hJnOisXEg-3ToBDzySaBNzp26wytTeymSnfFAlBqCSJA__",
+      "https://s3-alpha-sig.figma.com/img/615f/984f/1435a306a4c66c20c993c9aade6672c2?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=R1bpsGwR-6Q~mJVHFmDkSWXfW~JJaMesM4Cq0CUalpOo3bz-B~ECkPipLRbPyqA20gvtrzd~Kob7lYWE-swhMK8l5BZZDjMCAw59qoAjJu8SZWXkkdhLpD6j4UGYrmrz45eDSDNfeeZFnOwuQSsspOUEI3v1T7kGp7AoXYI8vh3y2GLCLichG0B1SpULqj9unTBlaw9OJSin2D4bMNwNoRf6pfj7RkZUiP8-v-YnyzOCYeL4oI~PUpCjIV0-JuDIaMq~U1BSEntZOcQmV5U9UkK2QO67PiBEhJlvNCUWxlOjh9V21V-8C~Yg~A0DekU3joxiadJDV9KelZZDNDJdLQ__",
   },
   {
     id: 4,
-    name: "8-mart",
+    name: "Tort Baunti",
     description:
-      "8-mart Xalqaro xotin-qizlar kuniga atalgan, mayin sariq rangda moslash bilan bezatilgan tort",
-    price: "180 000 so'm",
-    dimensions: "28 cm × 22 cm × 10 cm",
+      "Mayin kokosli shantilye va Baunti kokosli toʻldirmasi shokoladli biskvit.",
+    price: "229 000 so'm",
+    originalPrice: "290 000 so'm",
+    discount: true,
+    discountText: "Chegirmada",
+    servings: "6 - 8 kishi uchun mo'ljallangan.",
     image:
-      "https://s3-alpha-sig.figma.com/img/1602/929f/5a4d1a53acefedd54617affbab9b908b?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=pMlOgcMSm~JSg3wQSwDq8KGSt1FpmOhQ4JXbhtTm3XdN4y71xZCIfg~xPAhPgUu-cxBFxZ6ApBJvBcOvqxcS7kICknaKRxTZ1faNHFjqFcQ1yJw-mMDcja4KsMZDX3Uner1Q-NlvEBxFbxlM0bSDfuDNqzwBme4~qMNLYUt8oGM5ilE0vXrdcUeCAkGM5Mws3c1mUa2BW4KmHr0yRueGSogtH8FfPWZ3wP6Fok2TnqpZDECgo6zy8MnW13g4OjlrFRQ5T~8LDJ9VAVcBct8G2tpVbUDT2mADq9r3znL9quPOp5LjElEADKiC50sqssnaKKRTmr2dyF6eJb2n1lrV4w__",
+      "https://s3-alpha-sig.figma.com/img/0430/c525/c38434c79a05308f40892872df7c2236?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=fIi7oWe1ksXT09EXzYgedud13FzXzeNgsN7bm84R5xv6kTVDQpyhDI-0Y5TcPU8c0SQy0H7ktFkXjUaHRvYNimR-54CRIZdUfeB~ukfL9TJXzbpsRGqruprDp6xbW0I2wRZjQskex6UlZiooLaKBEEJ7YlzFAWD8eDDOTwBpQZ1loDnKQ7lWZIZOuC-~khHK4Y6Cut3hMW0FbcSW306dZnibtPZOgvheyiNt3N0jPfitpjiwgdzdfREsRo~3mQkVA-eFEMZGcrUoBQdfbEtGOOHYKQpA7Q16tTj07HIww-i5FA-GpKRCzo21fKSvIYj3oqBCJ-hz7LxV93Gi3Ec6nw__",
   },
 ];

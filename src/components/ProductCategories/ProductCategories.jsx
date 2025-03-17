@@ -11,7 +11,7 @@ export default function ProductCategories({ categoriesProduct }) {
         <TitleAndBtn />
         <Swiper
           modules={[Autoplay]}
-          className="rounded-xl overflow-hidden lg:h-[200px] md:h-[300px] h-[200px]"
+          className="rounded-xl overflow-hidden lg:h-[200px] md:h-[200px] h-[200px]"
           loop={true}
           autoplay={{
             delay: 5000,
@@ -34,9 +34,9 @@ export default function ProductCategories({ categoriesProduct }) {
                 <Img
                   src={category.image}
                   alt={category.name}
-                  className="w-full h-[130px] object-contain rounded-md"
+                  className="w-full h-[130px] object-cover rounded-md"
                 />
-                <p className="mt-2 text-sm font-semibold">{category.name}</p>
+                <p className="mt-2 text-lg font-[500]">{category.name}</p>
               </Link>
             </SwiperSlide>
           ))}
