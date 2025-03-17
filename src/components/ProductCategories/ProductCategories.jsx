@@ -6,7 +6,7 @@ import TitleAndBtn from "../TitleAndBtn/TitleAndBtn.jsx";
 
 export default function ProductCategories({ categoriesProduct }) {
   return (
-    <section>
+    <section className="py-[40px]">
       <div className="container mx-auto">
         <TitleAndBtn />
         <Swiper
