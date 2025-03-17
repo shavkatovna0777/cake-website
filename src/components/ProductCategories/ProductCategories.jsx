@@ -6,9 +6,9 @@ import TitleAndBtn from "../TitleAndBtn/TitleAndBtn.jsx";
 
 export default function ProductCategories({ categoriesProduct }) {
   return (
-    <section className="py-[40px]">
+    <section>
       <div className="container mx-auto">
-        <TitleAndBtn />
+        <TitleAndBtn title={"Kategoriyalar"} />
         <Swiper
           modules={[Autoplay]}
           className="rounded-xl overflow-hidden lg:h-[200px] md:h-[200px] h-[200px]"
