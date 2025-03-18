@@ -5,7 +5,7 @@ const ContactSection = () => {
   const position = [40.1156, 67.8422]; // Jizzax koordinatalari
 
   return (
-    <section className="grid grid-cols-1 md:grid-cols-2 h-[400px] mt-[50px]">
+    <section className="grid grid-cols-1 md:grid-cols-2 h-[400px] mt-[50px] ">
       <div className="h-full">
         <MapContainer center={position} zoom={13} className="h-full w-full">
           <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />

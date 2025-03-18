@@ -1,4 +1,8 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  useLocation,
+} from "react-router-dom";
 import {
   Home,
   Cart,
@@ -9,7 +13,7 @@ import {
   NotFound,
 } from "../pages/index.js";
 import MainLayout from "../layouts/MainLayout/MainLayout.jsx";
-import { createContext, useState } from "react";
+import { createContext, Suspense, useState } from "react";
 export const CartContext = createContext();
 
 function App() {
@@ -20,38 +24,70 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <MainLayout />,
+      element: (
+        <Suspense>
+          <MainLayout />
+        </Suspense>
+      ),
       children: [
         {
           path: "/",
-          element: <Home />,
+          element: (
+            <Suspense>
+              <Home />
+            </Suspense>
+          ),
         },
         {
           path: "menyu/*",
-          element: <Products />,
+          element: (
+            <Suspense>
+              <Products />
+            </Suspense>
+          ),
         },
         {
           path: "kontaktlar",
-          element: <Contact />,
+          element: (
+            <Suspense>
+              <Contact />
+            </Suspense>
+          ),
         },
         {
           path: "cart",
-          element: <Cart />,
+          element: (
+            <Suspense>
+              <Cart />
+            </Suspense>
+          ),
         },
         {
           path: "checkout",
-          element: <Checkout />,
+          element: (
+            <Suspense>
+              <Checkout />
+            </Suspense>
+          ),
         },
         {
           path: "qidiruv",
-          element: <Search />,
+          element: (
+            <Suspense>
+              <Search />
+            </Suspense>
+          ),
         },
       ],
     },
 
     {
       path: "*",
-      element: <NotFound />,
+      element: (
+        <Suspense>
+          <NotFound />
+        </Suspense>
+      ),
     },
   ]);
   return (
