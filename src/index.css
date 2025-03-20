@@ -16,12 +16,15 @@
 .text-black {
   color: #333;
 }
+
 .bg-light {
   background-color: #ffe0b2;
 }
+
 .bg-color {
   background-color: #8bc34a;
 }
+
 .text-white {
   color: #fff;
 }
@@ -34,5 +37,3 @@
 .tort-font {
   font-family: "Montserrat", sans-serif;
 }
-
-
